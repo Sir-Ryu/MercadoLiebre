@@ -43,7 +43,7 @@ header nav{
     padding: 10px;
 }
 
-.busqueda {
+.search {
     display: flex;
     background-color: white;
     border-radius: 5px;
@@ -55,13 +55,13 @@ header nav{
     padding: 0 16px 0 0;
 }
 
-.busqueda form {
+.search form {
     display: flex;
     align-items: center;
     flex: 1;
 }
 
-.busqueda input {
+.search input {
     border: none;
     flex: 1;
     padding: 16px;
@@ -69,11 +69,11 @@ header nav{
     box-sizing: border-box;
 }
 
-.busqueda span {
+.search span {
     margin-left: 5px;
 }
 
-.busqueda i {
+.search i {
     color: #000;
     margin-left: auto;
     border-left: 1px solid #ccc;
@@ -105,7 +105,7 @@ header ul li a{
     color: #000;
 }
 
-.burger-menu{
+.menu{
     text-align: center;
 
 }
@@ -328,7 +328,7 @@ footer{
         flex-direction: row;
     }
 
-    .logo-busqueda{
+    .logo{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -374,7 +374,7 @@ footer{
     .productos article{
         flex-basis: 40%;
     }
-    .burger-menu{
+    .menu{
         display: none;
     }
 
@@ -384,24 +384,24 @@ footer{
    .logo{
         width: 280px;
     }
-    .busqueda i{
+    .search i{
         text-align: right;
     }
 
-    .busqueda form{
+    .search form{
         display: flex;
         justify-content: space-between;
         width: 250px;
     }
 
-    .busqueda form input{
+    .search form input{
         width: 250px;
     }
 
     header nav{
         text-align: center;
     }
-    .productos article{
+    .search article{
         flex-basis: 20%;
         box-shadow: none;
     }
