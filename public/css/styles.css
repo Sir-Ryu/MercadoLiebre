@@ -327,13 +327,6 @@ footer{
         display: flex;
         flex-direction: row;
     }
-
-    .logo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
 }
 @media(min-width: 768px){
     header{
